@@ -2,10 +2,27 @@
 import React from 'react';
 import './App.css';
 import { FaDownload, FaGift, FaInfoCircle, FaQrcode } from 'react-icons/fa';
+import { Helmet } from 'react-helmet';
+
 
 function App() {
   return (
     <div className="app">
+
+      <Helmet>
+      <title>Oplite Connect - Seamlessly Connect, Communicate, and Collaborate</title>
+        <meta name="description" content="Oplite Connect is your app for collaboration, rewards, and QR code functionality. Download the APK now!" />
+        <meta name="keywords" content="Oplite Connect, QR Code App, Rewards App, APK Download, Collaboration App, oplite, oplite-connect, Oplite-Connect" />
+        <meta name="author" content="Oplite Connect Team" />
+        <meta property="og:title" content="Oplite Connect - Connect, Collaborate, and Reward" />
+        <meta property="og:description" content="Oplite Connect allows users to stay updated with schemes, earn rewards, and access exclusive features. Download the APK today!" />
+        <meta property="og:image" content="/images/app_logo.png" />
+        <meta property="og:url" content="https://oplite-connect.vercel.app/" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+      </Helmet>
+
       {/* Header Section */}
       <header className="header">
         <div className="container">
