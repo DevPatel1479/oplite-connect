@@ -35,7 +35,7 @@ function App() {
           <h1 className="app-name">Oplite Connect</h1>
           <p className="tagline">Seamlessly Connect, Communicate, and Collaborate</p>
           <a
-            href="https://drive.google.com/file/d/1mOIrBl6JhLW3kbRxd62nwdTeuf6kaiNW/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1JKEpZ8pBopsZd0oDy6wdYoVzUS0quawG/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             className="download-btn"
